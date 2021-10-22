@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">RumahDaus.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!--untuk home-->
+        <section id="home">
+            <img src="kocak.jpg">
+            <div class="kolom">
+                <p class="dwskripsi">Belajar Programming #dirumahaja</p>
+                <h2>Tetap Sehat, Tetap Semangat</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, impedit.</p>
+                <p><a href="" class="tbl-bru">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+        <!--untuk cources-->
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online Courses</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, voluptatum! Repudiandae distinctio voluptas inventore placeat praesentium neque voluptates suscipit soluta?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, voluptatum! Repudiandae distinctio voluptas inventore placeat praesentium neque voluptates suscipit soluta?</p>
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img src="courses.jpg">
+        </section>
+        <!---untuk tutors-->
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Tutors</p>
+                    <h2>Tutors</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, velit!</p>
+                </div>
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="df.png">
+                        <p>Daus Firmansah</p>
+                    </div>
+                        <div class="kartu-tutor">
+                            <img src="df.png">
+                            <p>Daus Firmansah</p>
+                        </div>
+                        <div class="kartu-tutor">
+                            <img src="df.png">
+                            <p>Daus Firmansah</p>
+                        </div>
+                            <div class="kartu-tutor">
+                                <img src="df.png">
+                                <p>Daus Firmansah</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--untuk partners-->
+        <section id="partners">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Partners</p>
+                    <h2>partners</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione voluptates ea repellat commodi incidunt nulla, illo ex odio reiciendis!</p>
+                </div>
+                <div class="partners-list">
+                    <div class="kartu-partners">
+                        <img src="logo mustfier 4.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
